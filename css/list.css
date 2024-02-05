@@ -5,6 +5,7 @@
 body {
 	background-color: #1b1b1b;
 	font-family: customFont;
+	font-size: 4em;
 }
 a:link, a:visited, a:hover, a:active {
 	color:	inherit;
