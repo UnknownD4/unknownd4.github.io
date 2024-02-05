@@ -19,7 +19,7 @@ h1, h2, p, a, ul{
 	font-weight: bold;
 	text-decoration: none;
 }
-.article-container p, .article-container h2 {
+.article-container p, .article-container h1, .article-container h2 {
 	margin: 0;
  	padding: 0;
 }
