@@ -13,17 +13,17 @@ a:link, a:visited, a:hover, a:active {
 h1, h2, p, a, ul{
 	color:  #ffffff;
 }
-.article-container {
+.article {
 	text-align: center;
 }
-.article-container a {
+.article a {
 	font-weight: bold;
 	text-decoration: none;
 }
-.article-container ul {
+.article ul {
 	list-style-position: inside;
 }
-.article-container p, .article-container h1, .article-container h2 {
+.article p, .article h1, .article h2 {
 	margin: 0;
  	padding: 0;
 }
@@ -40,4 +40,10 @@ h1, h2, p, a, ul{
 .footer a {
 	font-weight: bold;
 	text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+	.article ul {
+			list-style-position: outside;
+	}
 }

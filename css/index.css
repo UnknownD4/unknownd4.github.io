@@ -36,7 +36,7 @@ a:link, a:visited, a:hover, a:active {
 	height: 100px;
 }
 
-.link-image .image-container img {
+.link-image .image-container img, .link-image .image-container svg{
 	width: 100%;
 }
 .github-svg, .workout-svg {
@@ -57,10 +57,14 @@ a:link, a:visited, a:hover, a:active {
 .header {
 	text-align: center;
 }
-.header img {
-	width: 250px;
-}
 .footer {
 	padding-top: 5rem;
 	text-align: center;
+}
+
+@media only screen and (max-width: 497px) {
+	.links {
+		padding-top: 2.5rem;
+		gap: 6rem;
+	}
 }
