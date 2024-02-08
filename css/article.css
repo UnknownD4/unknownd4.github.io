@@ -10,7 +10,7 @@ body {
 a:link, a:visited, a:hover, a:active {
 	color:	inherit;
 }
-h1, h2, p, a, ul{
+h1, h2, p, a, ul {
 	color:  #ffffff;
 }
 .article {
@@ -23,15 +23,13 @@ h1, h2, p, a, ul{
 .article ul {
 	list-style-position: inside;
 }
-.article p, .article h1, .article h2 {
+.article p, .article h1, .article h2, .article ul {
 	margin: 0;
  	padding: 0;
 }
-
 .header {
 	text-align: center;
 }
-
 .footer {
 	padding-top: 5rem;
 	text-align: center;
@@ -41,9 +39,14 @@ h1, h2, p, a, ul{
 	font-weight: bold;
 	text-decoration: none;
 }
-
 @media only screen and (max-width: 700px) {
+	body {
+		font-size: 1rem;
+	}
+	.header img {
+		width: 200px;
+	}
 	.article ul {
-			list-style-position: outside;
+		list-style-position: initial;
 	}
 }
