@@ -1,0 +1,43 @@
+@font-face {
+  font-family: customFont;
+  src: url("../fonts/Fredoka-VariableFont_wdth,wght.ttf");
+}
+body {
+	background-color: #1b1b1b;
+	font-family: customFont;
+	font-size: 1.125rem;
+}
+a:link, a:visited, a:hover, a:active {
+	color:	inherit;
+}
+h1, h2, p, a, ul{
+	color:  #ffffff;
+}
+.article-container {
+	text-align: center;
+}
+.article-container a {
+	font-weight: bold;
+	text-decoration: none;
+}
+.article-container ul {
+	list-style-position: inside;
+}
+.article-container p, .article-container h1, .article-container h2 {
+	margin: 0;
+ 	padding: 0;
+}
+
+.header {
+	text-align: center;
+}
+
+.footer {
+	padding-top: 5rem;
+	text-align: center;
+	color:#ffffff;
+}
+.footer a {
+	font-weight: bold;
+	text-decoration: none;
+}
