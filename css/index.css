@@ -58,7 +58,7 @@ a:link, a:visited, a:hover, a:active {
 }
 @media only screen and (max-width: 497px) {
 	.links {
-		padding-top: 2.5rem;
+		padding-top: 2rem;
 		gap: 4rem;
 	}
 }

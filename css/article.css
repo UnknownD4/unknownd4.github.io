@@ -47,6 +47,6 @@ h1, h2, p, a, ul {
 		width: 200px;
 	}
 	.article ul {
-		list-style-position: initial;
+		list-style: none;
 	}
 }
